@@ -1,0 +1,72 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main{
+    width: 100%;
+    height: 100vh;  
+    background-color: darkgoldenrod;
+}
+
+.caua-img{
+    width: 30vh;
+    margin-left: 8vh;
+    margin-top: 5vh;
+}
+
+.caua-nome{
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(11, 23, 46);
+    text-align: center;
+    margin-top: 2vh;
+    
+}
+
+.caua-descrição{
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.caua-checkbox{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: flex;
+    justify-content: center; /* centraliza horizontal */
+    align-items: center;
+    margin-top: 3vh;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(25, 0, 255);
+}
+
+.button-proximo{
+
+    display: flex;
+    justify-content: center; /* centraliza horizontal */
+    align-items: center;
+    font-size: 3em;
+    color: rgb(244, 244, 244);
+    margin-top: 2vh;
+    background: #000000;
+    border-radius: 20px;
+
+}
+
+.button-voltar{
+    display: flex;
+    justify-content: center; /* centraliza horizontal */
+    align-items: center;
+    font-size: 3em;
+    color: rgb(244, 244, 244);
+    margin-top: 2vh;
+    background: #000000;
+    border-radius: 20px;
+
+}
